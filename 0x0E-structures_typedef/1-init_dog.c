@@ -1,7 +1,7 @@
 #include "dog.h"
 #include <stdlib.h>
 /**
- * init_dog - the new dog struct whose variable is 
+ * init_dog - the new dog struct whose variable is
  * to be initialized
  *
  * @d: pointer to the struct of the new dog

@@ -40,7 +40,7 @@ int op_mul(int a, int b)
 	return (a * b);
 }
 /**
- * oop_div - Returns the division of two numbers.
+ * op_div - Returns the division of two numbers.
  * @a: The first number.
  * @b: The second number.
  *

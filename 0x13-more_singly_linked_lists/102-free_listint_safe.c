@@ -1,10 +1,14 @@
 #include "lists.h"
 
 /**
- * fre_listint_safe - frees a linked list safely
- * @h: pointer to the first node in the linked list
+ * free_listint_safe - Frees a linked list and sets the head to NULL.
+ * @h: A pointer to the pointer to the first node in the linked list.
  *
- * Return: number of elements in the freed list
+ * This function frees a linked list safely to avoid infinite loops
+ * in the case of a looped list. It sets the head pointer to NULL
+ * after freeing the nodes.
+ *
+ * Return: The number of elements in the freed list.
  */
 size_t free_listint_safe(listint_t **h)
 {
